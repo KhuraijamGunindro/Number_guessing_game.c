@@ -11,7 +11,7 @@ int main()
     srand(time(0));//generates different random number almost everytime we run the code
 
     number = rand()%100+1;//generates random number between 1-100
-
+    printf("\nThe random number is: %d ", number);
     //keep running the loop until the number is guessed
 
     do
